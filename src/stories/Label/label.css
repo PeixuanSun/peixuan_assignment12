@@ -1,0 +1,11 @@
+.storybook-label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.storybook-label--required {
+  color: red;
+  margin-left: 4px;
+} 
