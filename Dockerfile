@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 6006
 
 # Start Storybook
-CMD ["npm", "run", "storybook"] 
+CMD ["npx", "storybook", "dev", "-p", "6006", "--no-open"]
